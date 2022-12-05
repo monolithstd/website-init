@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 
 // Animation des Quotes via GSAP
 
-export function h2Reveal() {
+function h2Reveal() {
   const split = new SplitText('.anim-h2', {
     type: 'words',
     wordsClass: 'words',

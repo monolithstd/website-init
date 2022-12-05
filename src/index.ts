@@ -29,7 +29,6 @@ const sixWindows = windowHeight * 6;
 window.Webflow ||= [];
 window.Webflow.push(() => {
   initSplide();
-  h2Reveal();
   isInViewport();
 
   // GLOBAL | Nettoyer des états en CSS
